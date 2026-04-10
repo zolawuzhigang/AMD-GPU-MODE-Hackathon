@@ -3,7 +3,7 @@
 
 """
 MLA解码核优化版本
-基于structmix公开路线，针对不同batch和序列长度进行参数调优
+针对不同batch大小和KV序列长度进行动态参数调优
 """
 
 import torch
